@@ -1,4 +1,4 @@
-package com.rabbitonweb.nnspc
+package com.vazqueznanini.nnspc
 
 /**
 P10 (*) Run-length encoding of a list.
@@ -12,10 +12,6 @@ res0: List[(Int, Symbol)] = List((4,'a), (1,'b), (2,'c), (2,'a), (1,'d), (4,'e))
   */
 class P10[T] {
 
-  def encode(list: List[T]) = {
-    new P09().pack(list).map {
-      case elemList: List[T] => (elemList.size, elemList(0))
-    }
-  }
+  def encode(list: List[T]): List[(Int, T)] = ???
 
 }

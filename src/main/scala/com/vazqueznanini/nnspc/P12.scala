@@ -1,4 +1,4 @@
-package com.rabbitonweb.nnspc
+package com.vazqueznanini.nnspc
 
 /**
 P12 (**) Decode a run-length encoded list.
@@ -9,7 +9,5 @@ scala> decode(List((4, 'a), (1, 'b), (2, 'c), (2, 'a), (1, 'd), (4, 'e)))
 res0: List[Symbol] = List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e)
   */
 class P12[T] {
-  def decode(list: List[(Int, T)]): List[T] = {
-    List()
-  }
+  def decode(list: List[(Int, T)]): List[T] = ???
 }

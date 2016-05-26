@@ -1,4 +1,4 @@
-package com.rabbitonweb.nnspc
+package com.vazqueznanini.nnspc
 
 /**
 P11 (*) Modified run-length encoding.
@@ -10,10 +10,5 @@ res0: List[Any] = List((4,'a), 'b, (2,'c), (2,'a), 'd, (4,'e))
   * @tparam T
   */
 class P11[T] {
-  def encode(list: List[T]) = {
-    new P10().encode(list).map {
-      case (1, x) => x
-      case p => p
-    }
-  }
+  def encode(list: List[T]): List[Any] = ???
 }

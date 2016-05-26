@@ -1,6 +1,6 @@
-package com.rabbitonweb.nnspc
+package com.vazqueznanini.nnspc
 
-import org.scalatest.{Matchers, FunSuite}
+import org.scalatest.{FunSuite, Matchers}
 
 class P10Test extends FunSuite with Matchers {
 
